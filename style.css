@@ -37,6 +37,8 @@ body {
 .profile_name {
   float: left;
   padding-left: 2cm;
+  font-family: fantasy;
+  font-size: xx-large;
   /* Add the styles here */
 }
 
@@ -55,7 +57,7 @@ body {
 }
 
 h1 {
-    color: rgb(28, 13, 235) !important;
+    color: rgb(28, 13, 235);
     font-family: cursive;   
 }   
 
@@ -98,7 +100,7 @@ h2 {
 #about-me h1 {
   font-size: 65px;
   margin-top: 90px;
-  color: #7600bc;
+  color: #94dafa;
 }
 
 #about-me p {
@@ -123,7 +125,7 @@ h2 {
 }
 
 .skill {
-  border: 1px solid gray;
+  border: 1px solid white;
   display: block;
   border-radius: 6px;
   text-align: center;
@@ -131,6 +133,7 @@ h2 {
   padding: 10px;
   width: 2in;
   font-size: 20px;
+  color: white;
   box-shadow: 0 3px 10px gray;
 }
 
