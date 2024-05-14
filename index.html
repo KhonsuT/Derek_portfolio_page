@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="./style.css"/>
     <script src="./script.js"></script>
   </head>
-  <body style="background-color: black;">
+  <body>
     <!-- Navigation Bar -->
     <nav>
       <div id="home">
@@ -41,21 +41,21 @@
     -->>
     <section id="about-me" class="container">
       <br><br>
-      <div style="text-align: center; font-family: fantasy;">
-        <img src="https://tenor.com/view/coding-typing-pc-laptop-power-gif-21599707.gif" class="profile_image"/>
-        <caption> &#8593 Derek in Dev Mode &#8593</caption> 
+      <div style="float: center">
+        <h1>
+          About Me
+        </h1>
+        <p>
+          Hi, I am a tetris enjoyer, gamer, travel enthusiast, challenge seeker and
+          full stack developer. I have two years of working experience in robotics and automation,
+          building world's most interesting robots. This is a single-page website I made with
+          all the awesome information about me.
+        </p>
       </div>
 
-      <div>
-          <h1 style="width: 45%;">
-            About Me
-          </h1>
-          <p style="color: white;">
-            Hi, I am a tetris enjoyer, gamer, travel enthusiast, challenge seeker and
-            full stack developer. I have two years of working experience in robotics and automation,
-            building world's most interesting robots. This is a single-page website I made with
-            tetris and all the awesome information about me.
-          </p>
+      <div style="text-align: center; font-family: fantasy; margin-right: 20%;">
+        <img src="https://tenor.com/view/coding-typing-pc-laptop-power-gif-21599707.gif"/>
+        <caption> &#8593 Derek in Dev Mode &#8593</caption> 
       </div>
     </section>
               
@@ -167,56 +167,5 @@
     </div>
     </section>
     <div style="clear:both;"></div>
-
-    <!-- Recommendations -->
-    <section id="recommendations">
-      <h2>Recommendations</h2>
-      <div style="clear:both;"></div>
-      <div class="all_recommendations" id="all_recommendations">
-        <div class="recommendation">
-          <span>&#8220;</span>
-          Derek, a skilled software developer, excels in problem-solving and collaboration, delivering high-quality solutions with precision and innovation.
-          <span>&#8221;</span>
-        </div>
-        <div class="recommendation">
-          <span>&#8220;</span>
-          Derek's expertise spans diverse technologies, ensuring efficient problem-solving and future-proof solutions, enhancing project outcomes and efficiency.
-          <span>&#8221;</span>
-        </div>
-        <div class="recommendation">
-          <span>&#8220;</span>
-          With meticulous coding and innovative thinking, Derek delivers elegant solutions optimized for performance, driving success in software development endeavors. 
-          <span>&#8221;</span>
-        </div>
-      </div>
-    </section>
-
-    <!-- Recommendation Form -->
-    <section id="contact">
-      <div class="flex_center">
-        <fieldset>
-          <legend class="introduction">Leave a Recommendation</legend>          
-          <input type="text" placeholder="Name (Optional)" id="recommendation_name"> <br/>
-          <textarea id="new_recommendation" cols="500" rows="10" placeholder="Message"></textarea>
-          <div class="flex_center">
-            <button id="recommend_btn" onclick="addRecommendation()">Submit</button>
-          </div>
-        </fieldset>
-      </div>
-    </section>
-
-    <div class="iconbutton">
-        <a href="#home">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" width="63px">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-            </svg>
-        </a>
-    </div>
-
-    <div class="popup" id="popup" class="flex_center">
-      <img src="html_finalprojimages/checkmark--outline.svg"/>
-      <h3> Thanks for leaving a Comment! Have a nice Day!</h3>
-      <button onclick="showPopup(false)">Ok</button>
-    </div>
   </body>
 </html>

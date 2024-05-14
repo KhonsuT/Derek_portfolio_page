@@ -97,23 +97,29 @@ h2 {
   align-items: center;
 }
 
-#about-me h1 {
-  font-size: 65px;
-  margin-top: 90px;
-  color: #94dafa;
-}
-
 #about-me p {
   font-size: 25px;
   color: rgb(128, 128, 128);
-  margin-top: -1cm;
+  margin-top: 1cm;
+  width: 75%;
+  margin-left: 60px;
+  text-indent: 30px;
 }
 
-.profile_image {
-  width: 550px;
+#about-me h1 {
+  text-align: justify;
+  font-size: 50px;
+  text-align: left;
+  color: #94dafa;
+  margin: 30px;
+  margin-top: 40px;
+  margin-left: 60px;
+  margin-bottom: 0px;
+}
+
+#about-me img {
+  width: 400px;
   height: fit-content;
-  vertical-align: middle;
-  margin: 5px;
 }
 
 /* Skills */
@@ -133,7 +139,6 @@ h2 {
   padding: 10px;
   width: 2in;
   font-size: 20px;
-  color: white;
   box-shadow: 0 3px 10px gray;
 }
 
@@ -216,12 +221,6 @@ h2 {
   border:1px solid gray;
   font-size: 18px;
   height:150px
-}
-
-.recommendation span {
-  color: #7600bc;
-  font-size: 20px;
-  font-family: 'Times New Roman', Times, serif;
 }
 
 /* Scroll to Top Button */
