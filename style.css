@@ -98,9 +98,9 @@ h2 {
 }
 
 #about-me p {
-  font-size: 300%;
+  font-size: 20vw;
   color: black;
-  margin-top: 1cm;
+  margin-top: auto;
   width: 75%;
   margin-left: 60px;
   text-indent: 30px;
@@ -118,7 +118,7 @@ h2 {
 }
 
 #about-me img {
-  width: 300%;  
+  width: 20vw;  
   margin-top: 35%;
   margin-left: 35%;
   height: fit-content;
